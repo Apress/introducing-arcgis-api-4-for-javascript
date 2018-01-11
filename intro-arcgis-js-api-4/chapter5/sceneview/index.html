@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+  <title>Introdcution to ArcGIS API 4 for JavaScript</title>
+  <link rel="stylesheet" href="https://js.arcgis.com/4.6/esri/css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/css/material-fullpalette.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <script src="dojoConfig.js"></script>
+  <script src="https://js.arcgis.com/4.6/"></script>
+</head>
+
+<body>
+  <div id="viewDiv"></div>
+  <div id="recorder">
+    <div>
+      <input class="camera-slider" id="slider"
+      type="range" min="1" max="1" step="1" value="1">
+      <a href="javascript:void(0)" id="reverseBtn"
+        title="Play views in reverse"
+        class="btn btn-info btn-fab btn-raised mdi-av-fast-rewind"></a>
+      <a href="javascript:void(0)" id="playBtn"
+        title="Play views"
+        class="btn btn-info btn-fab btn-raised mdi-av-play-arrow"></a>
+      <a href="javascript:void(0)" id="stopBtn"
+        title="Pause recording view"
+        class="btn btn-info btn-fab btn-raised mdi-av-pause"></a>
+    </div>
+  </div>
+</body>
+
+</html>

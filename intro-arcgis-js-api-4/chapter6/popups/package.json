@@ -1,0 +1,30 @@
+{
+  "name": "intro-arcgis-js-api-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -o | babel src --out-dir dist --source-maps --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-amd": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "http-server": "^0.10.0"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env"
+      ]
+    ],
+    "plugins": [
+      "transform-es2015-modules-amd"
+    ]
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,24 @@
+{
+  "name": "widgets",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "http-server -o | tsc -w",
+    "lint": "tslint './app/*.ts'"
+  },
+  "keywords": [
+    "esri",
+    "arcgis",
+    "typescript"
+  ],
+  "author": "Rene Rubalcava <rrubalcava@odoe.net",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.10.0",
+    "tslint": "^4.2.0"
+  },
+  "dependencies": {
+    "@types/arcgis-js-api": "^4.5.0",
+    "typescript": "^2.6.2"
+  }
+}

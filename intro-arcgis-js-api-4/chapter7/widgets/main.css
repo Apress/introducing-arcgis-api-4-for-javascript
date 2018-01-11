@@ -1,0 +1,61 @@
+html,
+body ,
+#viewDiv {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+html, body {
+  font-family: sans-serif, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.summary-widget {
+  padding: 1em;
+  width: 200px;
+}
+
+.chart-container {
+  text-align: center;
+}
+
+#simpleChart {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.summary-column {
+  height: 100%;
+  width: 100%;
+  align-self: flex-end;
+}
+
+.red {
+  background-color: #FF6384;
+}
+
+.blue {
+  background-color: #36A2EB;
+}
+
+.yellow {
+  background-color: #FFCE56;
+}
+
+.purple {
+  background-color: #CC65FE;
+}
+
+.keysection > p {
+  vertical-align: middle;
+  line-height: 10px;
+}
+
+.keybox {
+  float: left;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
